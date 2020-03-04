@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Visualization Dashboard</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" media="screen" href="C:\Users\zAbyx\Documents\HTML\Home_work\estilos.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+     <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="btn btn-secondary"
+                    aria-expanded="false">
+                    <a class="navbar-brand" href="C:\Users\zAbyx\Documents\HTML\Home_work\index.html"> Latitud</a>
+                </button>
+            </div>
+            <div class="dropdown">
+                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plot
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="C:\Users\zAbyx\Documents\HTML\Home_work\max_temp.html">Max Temperature</a>
+                  <a class="dropdown-item" href="C:\Users\zAbyx\Documents\HTML\Home_work\humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="C:\Users\zAbyx\Documents\HTML\Home_work\cloudiness.html">Cloudiness</a>
+                  <a class="dropdown-item" href="C:\Users\zAbyx\Documents\HTML\Home_work\wind_speed.html">Wind Speed</a>
+                </div>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <a href="C:\Users\zAbyx\Documents\HTML\Home_work\comparison.html"><button type="button" class="btn btn-secondary">Comparison</button></a>
+                  <a href="C:\Users\zAbyx\Documents\HTML\Home_work\data.html"><button type="button" class="btn btn-secondary">Data</button></a>
+                </div>
+            </div>  
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row row-grid" style="background-color:lightslategray;">
+            <div class="col-md-7">
+                <div class="section-one">
+                    <section id="intro">
+                        <h1>Summary Latitude vs X</h1>
+                        <br>
+                        <figure>
+                            <img src="C:\Users\zAbyx\Documents\HTML\Home_work\Fig1.png" width="400" height="300">
+                        </figure>
+                        <section class="body-text">
+                            <p>This project is for creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator, by utilizing a Python library, and the OpenWeatherMap API.
+                            Built a series of scatter plots to showcase the following relationships: Temperature (F) vs. Latitude Humidity (%) vs. Latitude Cloudiness (%) vs. Latitude Wind Speed (mph) vs. Latitude
+                            </p>
+                            </section>
+                    </section>
+                    
+                </div>
+             </div>
+             <div class="col-md-5">
+                <div class="section-two">
+                    <h2>Visualization</h2>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="C:\Users\zAbyx\Documents\HTML\Home_work\max_temp.html">
+                                <img id="other-visualizations-photo" src="C:\Users\zAbyx\Documents\HTML\Home_work\Fig1.png"  width="150" height="100">
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="C:\Users\zAbyx\Documents\HTML\Home_work\humidity.html">
+                                <img id="other-visualizations-photo" src="C:\Users\zAbyx\Documents\HTML\Home_work\Fig2.png"  width="150" height="100">
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="C:\Users\zAbyx\Documents\HTML\Home_work\cloudiness.html">
+                                <img id="other-visualizations-photo" src="C:\Users\zAbyx\Documents\HTML\Home_work\Fig3.png"  width="150" height="100">
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="C:\Users\zAbyx\Documents\HTML\Home_work\wind_speed.html">
+                                <img id="other-visualizations-photo" src="C:\Users\zAbyx\Documents\HTML\Home_work\Fig4.png"  width="150" height="100">
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            </div>
+    </div>
+
+</body>
+</html>
